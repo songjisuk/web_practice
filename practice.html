@@ -1,0 +1,38 @@
+<!DOCTYPE html><!--html으로 작성한다는 것을 명시하는 태그-->
+<html>
+<head>
+    <title>HTML,CSS 테마_1</title>
+    <link rel ="stylesheet" type="text/css" href="style.css?after">
+    <!--css의 주소 입력값-->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <!--아이콘 참고 사이트 주소-->
+</head>
+<body>
+    <div class="header"></div>
+    <input type="checkbox" class="toggle-sidebar" id="toggle-sidebar">
+    <label for="toggle-sidebar" class="toggle-icon">
+    <div class="bar-top"></div>
+    <div class="bar-center"></div>
+    <div class="bar-bottom"></div>
+    </label>
+
+<div class="sidebar">
+    <div class="profile">
+        <img src="profile.jpg" alt="">
+        <h3>베르</h3>
+        <ul>
+            <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></script></a></li>
+            <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+        </ul>
+    </div>
+    <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact Us</a></li>
+    </ul>
+</div>
+</body>
+</html>
+
